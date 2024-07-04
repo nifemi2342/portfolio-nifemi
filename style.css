@@ -7,7 +7,7 @@
 }
 
 :root {
-  --primary: rgba(144, 238, 235, 0.5);
+  --primary: rgba(197, 207, 0, 0.569);
   --secondary: #fff;
   --accent: rgba(144, 238, 144, 0.05);
   --slate: #f2f2f2;
@@ -121,6 +121,7 @@ nav a:hover {
   justify-content: center;
   gap: 40px;
   position: relative;
+  border-radius: 7px;
 }
 
 .bio .left h1 {
@@ -146,6 +147,7 @@ nav a:hover {
   width: 50%;
   border-radius: 50%;
   border: 7px solid rgb(146, 136, 136);
+  filter: drop-shadow(1px 1px 15px gray );
 }
 
 .bio .right h2 {
@@ -750,6 +752,8 @@ footer i {
 
   .bio .right img {
     width: 100%;
+    border: none;
+    border-radius: 0;
   }
 
   .projects > div {
@@ -863,6 +867,7 @@ footer i {
   .form {
     max-width: 100%;
     background-color: transparent;
+    left: 3.5px;
   }
   .contact form {
     margin: 0;
