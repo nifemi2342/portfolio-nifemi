@@ -6,16 +6,13 @@ const data = {
       yearOfGrad: 2023,
     },
     {
-      institution: 'John Hopskins University',
-      yearOfGrad: 2005,
-    },
-    {
-      institution: 'University Of Lagos',
+      institution: 'University of Maryland',
       yearOfGrad: 2024,
     },
+
     {
       institution: 'The African Church Model College',
-      yearOfGrad: 2023,
+      yearOfGrad: 2022,
     },
   ],
   experience: [
