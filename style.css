@@ -330,7 +330,7 @@ button:hover {
 }
 
 .goals p {
-  width: 50%;
+  width: 80%;
   font-size: var(--text);
   line-height: 1.5em;
 }
